@@ -29,7 +29,9 @@ $.querySelector("input").addEventListener("change", (e) => {
       $.querySelector("#download-btn").addEventListener("click", () => {
         let a = document.createElement("a"); //Create <a>
         a.href = "data:image/jpeg;base64," + window.btoa(base64String); //Image Base64 Goes here
-        a.download = "Image.jpeg"; //File name Here
+        a.download = `${tag.tags.title}.${
+          tag.tags.picture.format.split("/")[1]
+        }`; //File name Here
         a.click();
       });
     },
