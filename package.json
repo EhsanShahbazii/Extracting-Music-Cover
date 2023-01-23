@@ -1,0 +1,15 @@
+{
+  "name": "extracting-music-cover",
+  "version": "1.0.0",
+  "description": "extracting images of music with js",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Ehsan Shahbazi",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}
