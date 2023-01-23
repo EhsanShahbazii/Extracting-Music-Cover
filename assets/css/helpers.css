@@ -5,3 +5,9 @@
   font-weight: 900;
   color: var(--color-text-red);
 }
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
