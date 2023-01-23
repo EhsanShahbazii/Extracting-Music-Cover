@@ -1,8 +1,10 @@
 body {
   font-family: var(--font-Poppins-text);
-  background-color: #fff;
+  background-color: #bbb;
   min-height: 100vh;
 }
+
+/********** header **********/
 
 .navbar {
   display: flex;
@@ -71,5 +73,12 @@ body {
   color: var(--color-text-red);
 }
 
-.section-title h3 {
+.section-title h1,
+h4 {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+#start-btn {
+  max-width: 150px;
 }
