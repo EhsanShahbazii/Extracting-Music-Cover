@@ -26,8 +26,31 @@ $.querySelector("input").addEventListener("change", (e) => {
       $.querySelector("#track").textContent = `track: ${tag.tags.track}`;
       $.querySelector("#lyrics").textContent = `lyrics: ${tag.tags.lyrics}`;
 
+      Swal.fire({
+        position: "top-end",
+        html: `<div style="display: flex; justify-content: space-evenly; align-items: center"><div style="background-image: url(data:${format};base64,${window.btoa(
+          base64String
+        )}); width:100px; height: 100px; background-position: center;
+          background-size: contain;"></div>
+          <div><h6>${tag.tags.title}</h6>
+          <h6>${tag.tags.artist}</h6>
+          </div>
+          <div class="spinner-border text-info" role="status">
+  <span class="visually-hidden">Loading...</span>
+</div>
+          </div>`,
+        showConfirmButton: false,
+        timer: 2500,
+      });
+
       $.querySelector("#download-btn").addEventListener("click", () => {
-        Snackbar.show({ text: "Example notification text." });
+        Swal.fire({
+          position: "center",
+          icon: "success",
+          title: "image has been successfully downloaded",
+          showConfirmButton: false,
+          timer: 1500,
+        });
         let a = document.createElement("a"); //Create <a>
         a.href = "data:image/jpeg;base64," + window.btoa(base64String); //Image Base64 Goes here
         a.download = `${tag.tags.title}.${
