@@ -27,6 +27,7 @@ $.querySelector("input").addEventListener("change", (e) => {
       $.querySelector("#lyrics").textContent = `lyrics: ${tag.tags.lyrics}`;
 
       $.querySelector("#download-btn").addEventListener("click", () => {
+        Snackbar.show({ text: "Example notification text." });
         let a = document.createElement("a"); //Create <a>
         a.href = "data:image/jpeg;base64," + window.btoa(base64String); //Image Base64 Goes here
         a.download = `${tag.tags.title}.${

@@ -1,0 +1,13 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+node_modules/
+.sass-cache/
+src/sass/snackbar.css
+src/sass/snackbar.css.map
+.idea/
