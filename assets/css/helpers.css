@@ -11,3 +11,19 @@
   align-items: center;
   justify-content: center;
 }
+
+.bold {
+  font-weight: 600;
+  font-size: var(--font-small-text);
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.res {
+  background-color: #00000090;
+  border-radius: 4px;
+  padding: 2px 10px;
+  font-weight: 300;
+  color: #fff;
+}
