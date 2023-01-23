@@ -1,15 +1,43 @@
 body {
   font-family: var(--font-Poppins-text);
+  background-color: #f2f5fa;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff252590;
+}
+
+.navbar-nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.ver {
+  border-left: 1px solid #ffffff90;
+  padding-left: 8px;
+  color: #fff;
+}
+
+.nav-link img {
+  width: 20px;
+  height: 20px;
 }
 
 #logo-title {
   background-image: linear-gradient(
-    to right,
-    #15396f,
-    #006ca7,
-    #009eac,
-    #00cb7a,
-    #a8eb12
+    to left,
+    #ffffff,
+    #ffedff,
+    #ffd6d7,
+    #ffdc73,
+    #e9ff00
   );
   background-size: 100%;
   -webkit-background-clip: text;
