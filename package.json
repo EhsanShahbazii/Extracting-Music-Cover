@@ -9,6 +9,7 @@
   "author": "Ehsan Shahbazi",
   "license": "ISC",
   "dependencies": {
-    "bootstrap-icons": "^1.10.3"
+    "bootstrap-icons": "^1.10.3",
+    "node-snackbar": "^0.1.16"
   }
 }
