@@ -1,2 +1,6 @@
 :root {
+  --font-Pacifico-title: "Pacifico", cursive;
+  --font-Poppins-text: "Poppins", sans-serif;
+
+  --font-medium-title: "1.5rem";
 }

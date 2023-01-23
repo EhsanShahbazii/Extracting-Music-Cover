@@ -1,0 +1,21 @@
+body {
+  font-family: var(--font-Poppins-text);
+}
+
+#logo-title {
+  background-image: linear-gradient(
+    to right,
+    #15396f,
+    #006ca7,
+    #009eac,
+    #00cb7a,
+    #a8eb12
+  );
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: var(--font-Pacifico-title);
+  font-size: var(--font-medium-title);
+}
