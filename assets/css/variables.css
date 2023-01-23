@@ -2,8 +2,10 @@
   --font-Pacifico-title: "Pacifico", cursive;
   --font-Poppins-text: "Poppins", sans-serif;
 
-  --font-medium-title: "1.5rem";
+  --font-medium-title: 1.5rem;
+  --font-large-title: 3rem;
 
   --color-bg-cream: #dde9cf;
   --color-bg-sky: #ebdcf5;
+  --color-text-red: #e82d62;
 }

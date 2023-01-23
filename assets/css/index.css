@@ -1,6 +1,6 @@
 body {
   font-family: var(--font-Poppins-text);
-  background-color: #f2f5fa;
+  background-color: #fff;
   min-height: 100vh;
 }
 
@@ -30,7 +30,7 @@ body {
   height: 20px;
 }
 
-#logo-title {
+.logo-title {
   background-image: linear-gradient(
     to left,
     #ffffff,
@@ -46,4 +46,30 @@ body {
   -moz-text-fill-color: transparent;
   font-family: var(--font-Pacifico-title);
   font-size: var(--font-medium-title);
+}
+
+/********* section 1 **********/
+.main-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rocket-img {
+  max-width: 500px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-title h1 {
+  font-weight: 900;
+  font-size: var(--font-large-title);
+  color: var(--color-text-red);
+}
+
+.section-title h3 {
 }
