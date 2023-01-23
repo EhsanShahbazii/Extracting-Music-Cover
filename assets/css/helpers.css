@@ -1,3 +1,5 @@
-.bg-dark {
-  background-color: gray;
+.header-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }

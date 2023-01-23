@@ -1,7 +1,8 @@
 body {
   font-family: var(--font-Poppins-text);
-  background-color: #bbb;
+  background-color: var(--color-bg-main);
   min-height: 100vh;
+  overflow-x: hidden;
 }
 
 /********** header **********/
@@ -50,11 +51,12 @@ body {
   font-size: var(--font-medium-title);
 }
 
-/********* section 1 **********/
+/********* section main **********/
 .main-section {
   display: flex;
   align-items: center;
   justify-content: center;
+  min-height: 80vh;
 }
 
 .rocket-img {
@@ -81,4 +83,22 @@ h4 {
 
 #start-btn {
   max-width: 150px;
+}
+
+/********* section extract **********/
+.extract-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="file"] {
+  display: none;
+}
+.custom-file-upload {
+  border: 4px dashed var(--color-bg-dark);
+  color: var(--color-text-dark);
+  display: inline-block;
+  padding: 24px 48px;
+  cursor: pointer;
 }
