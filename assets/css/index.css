@@ -1,6 +1,6 @@
 body {
   font-family: var(--font-Poppins-text);
-  background-color: var(--color-bg-main);
+  background-color: rgb(255, 255, 255);
   min-height: 100vh;
   overflow-x: hidden;
 }
@@ -12,7 +12,7 @@ body {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  background-color: #ff252590;
+  background-color: #c34a3695;
 }
 
 .navbar-nav {
@@ -197,4 +197,10 @@ input[type="file"] {
   background-position: 0px 0px, 200px 100px, 0px 100px, 340px 0px;
   animation: border-dance 30s infinite linear;
   border: none !important;
+}
+
+.list-group-flush,
+.list-group-item {
+  background-color: transparent;
+  border-color: #000;
 }
