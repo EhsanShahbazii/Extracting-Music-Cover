@@ -97,10 +97,10 @@ input[type="file"] {
   display: none;
 }
 .custom-file-upload {
-  border: 4px dashed var(--color-bg-dark);
   color: var(--color-text-dark);
-  display: inline-block;
-  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   cursor: pointer;
 }
 
@@ -183,4 +183,18 @@ input[type="file"] {
 
 #typewriter {
   width: 100%;
+}
+
+.border {
+  width: 300px;
+  height: 100px;
+  background: linear-gradient(90deg, var(--color-bg-dark) 50%, transparent 50%),
+    linear-gradient(90deg, var(--color-bg-dark) 50%, transparent 50%),
+    linear-gradient(0deg, var(--color-bg-dark) 50%, transparent 50%),
+    linear-gradient(0deg, var(--color-bg-dark) 50%, transparent 50%);
+  background-repeat: repeat-x, repeat-x, repeat-y, repeat-y;
+  background-size: 15px 4px, 15px 4px, 4px 15px, 4px 15px;
+  background-position: 0px 0px, 200px 100px, 0px 100px, 340px 0px;
+  animation: border-dance 30s infinite linear;
+  border: none !important;
 }

@@ -1,0 +1,8 @@
+@keyframes border-dance {
+  0% {
+    background-position: 0px 0px, 300px 96px, 0px 300px, 296px 0px;
+  }
+  100% {
+    background-position: 300px 0px, 0px 96px, 0px 0px, 296px 300px;
+  }
+}
