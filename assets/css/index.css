@@ -180,6 +180,20 @@ input[type="file"] {
   justify-content: center;
 }
 
+@media screen and (max-width: 468px) {
+  .image-part .result {
+    width: 350px;
+    height: 350px;
+  }
+}
+
+@media screen and (max-width: 380px) {
+  .image-part .result {
+    width: 300px;
+    height: 300px;
+  }
+}
+
 /********** animations **********/
 
 #typewriter {
