@@ -64,3 +64,9 @@ $.querySelector("input").addEventListener("change", (e) => {
     },
   });
 });
+
+new Typewriter("#typewriter", {
+  strings: ["Extract music cover", "Easy & fast", "Powered by jsmedia"],
+  autoStart: true,
+  loop: true,
+});

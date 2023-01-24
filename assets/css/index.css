@@ -178,3 +178,9 @@ input[type="file"] {
   align-items: center;
   justify-content: center;
 }
+
+/********** animations **********/
+
+#typewriter {
+  width: 100%;
+}
